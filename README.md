@@ -31,3 +31,42 @@ To get started with **LangChain-Dev-Kit-1.0**, follow these steps:
 1. **Clone the repo**:
    ```bash
    git clone https://github.com/username/LangChain
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd LangChain-Dev-Kit-1.0
+
+3. **Set up a virtual environment** (optional but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+4. **Install the dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+
+Once installed, you can start exploring the examples provided in the repository. Below is a simple example to run a LangChain script:
+
+```bash
+python examples/simple_chain_example.py
+```
+
+Feel free to explore different directories to learn about various features and how they can be implemented in your own projects.
+
+### Available Examples:
+- **Basic Chain**: [simple_chain_example.py](examples/simple_chain_example.py)
+- **Agents and Tools**: [agent_tool_example.py](examples/agent_tool_example.py)
+- **Memory Management**: [memory_management_example.py](examples/memory_management_example.py)
+- **Custom Prompts**: [custom_prompt_example.py](examples/custom_prompt_example.py)
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Henoshan A.  
+[henoshan.official@gmail.com]  
+[LinkedIn](https://www.linkedin.com/in/henoshan-athimoolanathan/) | [GitHub](https://github.com/henoshan)
